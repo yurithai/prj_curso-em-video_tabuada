@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Tabuada</title>
+</head>
+
+<body>
+
+    <header>
+
+        <a id="link-header" href="#">CONTADOR</a>
+        <a id="link-header" href="#">TABUADA</a>
+        <a id="link-header" href="#">AJUDA</a>
+        <a id="link-header" href="#">CONTATOS</a>
+
+        <h1>TABUADA</h1>
+    
+    </header>
+    
+    <main class="wrapper">
+
+        <section class="container-top">
+            <p>
+                Número:  
+                <input type="number" id="txtn"/>
+            
+
+                <input type="button" id="btn-enviar" value="Gerar Tabuada" onclick="tabuada()"/>
+            </p>
+        </section>
+
+        <section class="container-bottom">
+
+            <select id="res" size="10">
+                <option>Digite um Número Acima</option>                
+                <!-- <option value="1">1</option> -->
+            </select>
+
+        </section>
+
+    </main>
+
+
+
+</body>
+
+<footer>
+    <p>&copy; 2024</p>
+</footer>
+
+<script src="script.js"></script>
+
+</html>
