@@ -18,7 +18,7 @@ h1 {
     text-align: center;
 }
 
-#link-header {
+.link-header {
     cursor: pointer;
     font-size: 30px;
     color: #BC6C25;
@@ -26,15 +26,15 @@ h1 {
     margin-left: 25px;
 }
 
-#link-header:hover {
+.link-header:hover {
     opacity: 0.6;
 }
 
-#link-header:active {
+.link-header:active {
     color: #412207;
 }
 
-#link-header:nth-child(3) {
+.link-header:nth-child(3) {
     color: #412207;
 }
 
@@ -81,7 +81,7 @@ footer {
 
 @media screen and (max-width: 580px) {
     
-    #link-header {
+    .link-header {
         display: none;
     }
 }
