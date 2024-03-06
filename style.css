@@ -79,11 +79,20 @@ footer {
     text-align: center;
 }
 
-@media screen and (max-width: 580px) {
-    
-    .link-header {
+@media screen and (max-width: 600px) {
+    .link-header{
+        font-size: 18px;
+        text-align: center;
+    }
+
+
+    .link-header:nth-child(1), .link-header:nth-child(5) {
         display: none;
     }
-}
 
+    .wrapper {
+        width: 300px;
+        padding-bottom: 10px;
+    }
+}
 
